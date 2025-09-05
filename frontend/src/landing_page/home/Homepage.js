@@ -7,11 +7,13 @@ import Education from './Education'
 import OpenAccount from '../OpenAccount'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 function Homepage() {
   return (
     <div>
-        <h1>homepage</h1>
+       
+        <FontAwesomeIcon icon={faHome} />
 <Navbar/>
         <Hero/>
         <Award/>

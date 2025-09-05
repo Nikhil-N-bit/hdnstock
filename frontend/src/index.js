@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
 
     <>
-    <h1>NIkhil is here!</h1>
+   
 
     <Homepage/>
 
