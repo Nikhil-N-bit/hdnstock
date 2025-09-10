@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container mb-5">
   <div className="row text-center">
     <img className='mb-5' src='media/images/homeHero.png' alt='heroimage'/> 
 
@@ -12,7 +12,7 @@ function Hero() {
     <p style={{ fontSize: "1.25rem", fontWeight: "300", color: "#555" }}>
       Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
     </p>
-    <button className="btn" style={{ backgroundColor: "#2b70f0", color: "#fff", border: "none", padding: "12px 24px", borderRadius: "5px", width: "30%", margin: "0 auto" }}>
+    <button className="btn mb-5" style={{ backgroundColor: "#2b70f0", color: "#fff", border: "none", padding: "12px 24px", borderRadius: "5px", width: "30%", margin: "0 auto" }}>
       Sign up for free
     </button>
   </div>
